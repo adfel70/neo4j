@@ -34,7 +34,6 @@ def create_graph(data):
     return G
 
 
-
 def visualize_graph(G):
     pos = nx.spring_layout(G)
     labels = {node: node for node in G.nodes()}
